@@ -2,17 +2,6 @@
 # This is the option to always show out of dock power for ships when they are docked. Defaults to false
 use_out_of_dock_power = true
 
-[config]
-assets_url_override = ''
-settings_url = ''
-
-[control]
-# If you don't want any hotkeys you can set this to false
-hotkeys_enabled = true
-hotkeys_extended = true
-# If you prefer to use Scopely's hotkeys set this to true
-use_scopely_hotkeys = false
-
 [ui]
 # Set to true to always show the rewards for selected ships/stations
 show_cargo_default = false
@@ -116,3 +105,14 @@ url = 'https://spocks.club/sync/ingress/'
 
 [tech]
 fix_unity_web_requests = true
+
+[config]
+assets_url_override = ''
+settings_url = ''
+
+[control]
+# If you don't want any hotkeys you can set this to false
+hotkeys_enabled = true
+hotkeys_extended = true
+# If you prefer to use Scopely's hotkeys set this to true
+use_scopely_hotkeys = false
