@@ -91,17 +91,17 @@ transition_time = 0.001
 vsync = 1
 
 [sync]
-battlelogs = false
-buildings = false
-missions = false
-officer = false
-research = false
-resources = false
-ships = false
-tech = false
 token = 'b66e83ca-3df5-472d-aa26-20fbd9e996e5'
-traits = false
 url = 'https://spocks.club/sync/ingress/'
+resources = true
+battlelogs = false
+officer = true
+missions = false
+research = true
+tech = false
+traits = false
+buildings = true
+ships = false
 
 [tech]
 fix_unity_web_requests = true
