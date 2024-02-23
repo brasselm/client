@@ -1,0 +1,23 @@
+To upgrade from one version of WarpDrive to the next, follow the instructions for the latest version.  
+
+If upgrading more than one level at a time, (e.g. from 1.1 to 1.3), make sure to check the instructions for each level to ensure you have the latest of all files.  For any add/replace files listed in previous versions, you can use the corresponding files from the latest zip folder.
+
+2.0: Replace maingui.exe with the latest.  Add all mineCommonAnomoly and mineRareAnomoly imagesto to the 01_Mines folder for each resolution.  Add buttonClaimAll, hostileCustom, and shipTargeting images to the 02_BasicUse folder for each resolution.  Add borgCutBeam, borgCutBeamRdy, borgCutBeamTarget, buttonBorgBeamConfirm, buttonDSWarpToken, buttonVoyagerConfirm, imageVoyagerError, voyager_sensor, and voyagerSensorRdy images to the 03_AdvFeatures folder for each resolution.  Replace myShipA.png in images-3840-2160.
+
+1.9:  Replace maingui.exe with the latest.  Add multiSystem.png to the 02_BasicUse folder for both resolutions.  Replace hostileSurvey.png in images-1920-1080/02_BasicUse.
+
+1.8:  Replace maingui.exe with the latest.  Image updates:  In 01_Mines folder, Add/Replace the following images: images-3840-2160 mineDDataNode07, 08, 09, 10.  images-1920-1080 mineCrystalNode05.png (corrects previous filename typo), mineISONode05 and 06. If you have created mine images of your own with any of these names previously and want to retain them, you will want to save them off as a different increment extension number so that the new images don't overwrite them.  In 02_BasicUse folder Add buttonSearchSelect.png and buttonUseLatinumSpeedup.png.  In 03_AdvFeatures, Add hostileHirogen.png.  In 04_RareImages, Add insufficientResources2.png
+
+1.7:  Replace maingui.exe with the latest.  In 01_Mines folder, Add/Replace the following images: All mineDDataNode##.PNG and mine CDataNodes##.PNG images.  If you have created data node images of your own previously and want to retain them, you will want to save them off as a different incremented extension number so that the new images don't overwrite them.  In 02_BasicUse folder, Add/Replace the following images:  hostileRomulan.PNG, hostileRomulan2.PNG, and hostileFederation2.PNG.
+
+1.6:  Replace maingui.exe with the latest.
+
+1.5:  Replace maingui.exe with the latest.  Replace version.dll and community_patch_settings.toml in the location where the game file prime.exe is stored (same path you copied into your setup window when setting up WarpDrive for the first time).  As you did during the initial installation, make sure to choose the correct toml file for your screen resolution, then delete the resolution extension from the filename so that it is "community_patch_settings.toml".
+
+1.4:  Replace maingui.exe with the latest.  Add/Replace images stationAttacked.png, buttonImageInbox.png, shieldRunningOut2.png, stationBattlelog.png to 03_AdvFeatures folder for your resolution.  For 4k resolution, move mineCDataNode01.png, mineCDataNode02.png, CDataNode03.png, mineCDataNode04.png from 03_AdvFeatures folder to 01_Mines.
+
+1.3:  Replace maingui.exe with the latest. Add images hostileLost.png and hostileLost2.png to the 03_AdvFeatures folder for your resolution.
+
+1.2:  Replace maingui.exe with the latest. Add/Replace hostileKlingon.png and hostileKlingon2.png to the 02_BasicUse folder for your resolution.
+
+1.1:  Replace maingui.exe with the latest. In images-1920-1080/01_Mines folder, replace mineOreNode04.png.  In images-1920-1080/04_RareImages folder, replace buttonInventoryErrorConfirm.png.  In each resolution images 03_AdvFeatures folder, add hostileAssimilated.png.
