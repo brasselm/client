@@ -98,10 +98,10 @@ battlelogs = false
 officer = true
 missions = false
 research = true
-tech = false
-traits = false
+tech = true
+traits = true
 buildings = true
-ships = false
+ships = true
 
 [tech]
 fix_unity_web_requests = true
